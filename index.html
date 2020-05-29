@@ -4,9 +4,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
+    <title>Corona Virus</title>
+    <!--bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <!--font awesome-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+  <!--css file -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    </head>
 <body>
+ <nav class="navbar navbar-expand-lg fixed-top navigation-color">
+      <a href="#home" class="navbar-brand brand-name">All About COVID-19</a>
+      <button
+        type="button"
+        class="navbar-toggler"
+        data-toggle="collapse"
+        data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle Navigation"
+      >
+        <i class="fa fa-bars toggle-icon-format"></i>
+      </button>
+      <div class="navbar-collapse collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active menu-item-format">
+            <a href="#home" class="nav-link">Statistics</a>
+          </li>
+          <li class="nav-item menu-item-format">
+            <a href="graphs.html" class="nav-link">Graphs</a>
+          </li>
+          
+        </ul>
+      </div>
+    </nav>
+    <section id="home">
+<div id="map"> 
+
+</div>
+    <div class="text-center"> 
+    <table class="table">
+  <thead>
+    <tr>
+      <th>Total Confirmed</th>
+      <th>Recovered</th>
+      <th>Deaths</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr id="data">
+     
+    </tr>
+  </tbody>
+</table>
+    </div>
+</section>
+
+
+    <!-- jquery script-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     
+    <!-- popper.js and bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
+<!--google map api script-->
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB31dPVmPO-mgMW4s4PfRFuU6wDFMzFGN4&callback=initMap"
+    ></script> 
+    <!-- global_figures file
+ <script src="assets/js/global_figures.js"></script>-->
+
+<script src="assets/js/maps.js"></script>
 </body>
 </html>
