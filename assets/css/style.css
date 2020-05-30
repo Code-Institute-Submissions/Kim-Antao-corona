@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Cinzel&family=Libre+Caslon+Text&family=Modak&family=Montserrat+Subrayada&family=Playfair+Display+SC&family=Righteous&family=Roboto+Slab:wght@300&family=Special+Elite&family=Vidaloka&display=swap");
+html {
+  height: 100%;
+}
+body {
+  font-family: "Libre Caslon Text", sans-serif;
+  color: #112327;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+}
+/*--------------------------------------------------------------------- navigation*/
+.navbar {
+  margin-bottom: 25px;
+  background-color: rgb(170, 169, 169);
+}
+.navbar a {
+  font-family: "Libre Caslon Text", sans-serif;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.navbar .brand-name {
+  font-family: "Vidaloka", sans-serif;
+  font-size: 22px;
+}
+
+.menu-item-format a {
+  font-size: 18px;
+  font-weight: 400;
+  transition: color 0.4s ease-in-out;
+}
+
+.dropdown-menu {
+  background-color: rgb(130, 124, 124);
+  color: #ffffff;
+  border: none;
+
+}
+.toggle-icon-format {
+  font-size: 30px;
+  color: #ffffff;
+}
+/*----------------------------------------------------------responsive styling of nav bar items*/
+
+@media (max-width: 1280px) {
+  .dropdown-menu a {
+    text-align: left;
+  }
+ 
+}
+
+@media (max-width: 991px) {
+  .dropdown-menu a {
+    text-align: center;
+  }
+}
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+  }
+}
+
+
+
+/*-------------------------------------------------------------------------------hover effect*/
+
+#navbarNavDropdown a:hover {
+  color: #000000;
+}
+
+#navbarNavDropdown .dropdown-menu a:hover {
+  color: #000000;
+  background-color: #bdbdbd;
+}
+
+.customised-button:hover {
+  color: #ffffff;
+  background-color: #e64b4b;
+}
+
+/*--------------------------------------------------------------------custom button styling*/
+.customised-button {
+  font-family: "Vidaloka", sans-serif;
+  border: 1px solid #cc0001;
+  border-radius: 10px;
+  background-color: #cc0001;
+  padding: 8px 40px;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 18px;
+  transition: background-color 0.8s ease-in-out;
+}
+
+/*--------------------------------------------------------------------------------styling for index.html*/
+#map {
+  overflow-x: hidden;
+  height: 86vh;
+  width: 100%;
+}
+
+.blue-color {
+  background-color: rgba(21, 137, 255, 0.5);
+  color: rgb(14, 86, 158, 1);
+}
+
+.red-color {
+  background-color: rgba(255, 0, 0, 0.5);
+  color: rgba(167, 0, 0, 1);
+}
+.green-color {
+  background-color: rgba(65, 163, 23, 0.5);
+  color: rgba(46, 114, 17, 1);
+}
+
+.error-color{    
+  background-color: rgb(185, 2, 2);
+  color: rgb(255, 255, 255);
+}
+.row{
+    margin:0;
+}
+
+/*------------------------------------------------------------------------------------footer styling*/
+footer{
+    height: 30px;
+    width: 100%;
+   color:#000000; 
+  background-color: rgb(170, 169, 169);
+}
+
+.footer{
+    margin-bottom: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/*----------------------------------------------------------------------------------------styling of graph.html*/
+.main{
+    width: 100%;
+}
+.latest-report{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+     margin: 0 auto;
+     padding-bottom: 20px;
+}
+.confirmed,
+.recovered,
+.active,
+.deaths{
+    text-align: center;
+}
+
+#linearChart{
+    min-height: 80vh;
+    max-width: 100vw;
+}
+select{
+    height: 40px;
+}
+/*--------------------------------------------------------------------------responsive styling for elements of graph.html*/
+@media screen and (max-width: 769px){
+    .latest-report{
+        display: flex;
+        flex-flow: row wrap;
+        align-items: flex-start;
+    }
+    #covid-country{
+        width:85vw;
+    }
+    select{
+        
+    margin-bottom: 10px;
+    }
+    .customised-button{
+        margin-bottom: 15px;
+    }
+    .country{
+      text-align: center;
+    }
+}
+
+/*-----------------------------------------------------------------------------------------error message*/
+h1{
+    color:#cc0001;
+    font-weight: bold; 
+    text-align:center;
+    margin-top:15vh;
+    margin-bottom:15vh;
+    
+}
