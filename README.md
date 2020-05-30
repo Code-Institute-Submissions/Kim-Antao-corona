@@ -3,19 +3,19 @@ ALL ABOUT COVID-19
 Currently the world is full of chaos, confusion and fear due to the outbreak
 of the novel corona virus. With news channels filled with sections about deaths
 caused by it. Though being informed is very important, it is proved that continuous
-watching about it will only cause every one to  get stress and panic. 
+watching about it will only cause every one to stress and panic. 
 
-This is where this website comes into picture. Even though its in its initial stage
+This is where this project comes into picture. Even though its in its initial stage
 it provides basic statistics about the spread of virus. which will not only help you
 understand whats happening in your country but if you have family and friends in 
-different countries, help to understand their situation as well. that too with just a 
-click. All countries summarised on on site so no more hassel of loading diffrent Pages
+different countries, help to understand their situation as well. That too with just a 
+click. All countries summarised on one site so no more hassel of loading diffrent Pages
 
 
 UX
 
 All about Covid-19 is created keeping everyone in mind. its basic idea being able to
-tell the user what the statistics are in globally
+tell the user what the statistics are globally
 
 Most of the countries are trying to lift the lockdown with businesses eventually 
 getting back on track. If you are a part of a big organisation and have meetings 
